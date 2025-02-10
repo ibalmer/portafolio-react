@@ -1,0 +1,36 @@
+.proyect-div{
+    width: 100%;
+    min-width: 400px;
+    color: var(--select);
+    transition: all .7s ease-in-out;
+}
+.proyect-div:hover{
+    transform: scale(1.25);
+    z-index: 1;
+}
+.client-img{
+    width: 40px;
+    height: 40px;
+}
+
+.tipo{
+    font-size: .8rem;
+}
+.hov-div:hover{
+    .visibility-div{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.visibility-div{
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+.visibility-div{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 2s ease-in-out, transform 0.5s ease-in-out;
+}
+
