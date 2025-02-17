@@ -1,0 +1,11 @@
+.post-input:focus{
+    outline: 2px solid var(--principal);
+}
+.post-area{
+    resize: none;
+    field-sizing: content;
+}
+.button{
+    outline: 2px solid var(--principal);
+    font-weight: bold;
+}

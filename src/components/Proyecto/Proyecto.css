@@ -1,7 +1,7 @@
 .proyect-div{
     width: 100%;
     min-width: 400px;
-    color: var(--select);
+    color: var(--principal);
     transition: all .7s ease-in-out;
 }
 .proyect-div:hover{

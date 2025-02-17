@@ -2,18 +2,18 @@
     background-color: var(--bg-2);
     width: fit-content;
     height: 34px;
-    outline: 2px solid var(--select);
+    outline: 2px solid var(--principal);
 }
 .header-nav a{
     z-index: 2;
 }
 .header-nav a span{
-    color: var(--select);
+    color: var(--principal);
     opacity: .5;
 }
 
 .select-span{
-    color: var(--select)!important;
+    color: var(--principal)!important;
     opacity: 1 !important;
 }
 /* .select-a{
@@ -25,7 +25,7 @@
 }
 .light-mode{
     background-color: var(--bg-2);
-    outline: 2px solid var(--select);
+    outline: 2px solid var(--principal);
 }
 .light-icon{
     z-index: 2;
@@ -38,6 +38,8 @@
     width: 156.6px;
     height: 34.4px;
     z-index: 1;
+    transition: all .8s ease-in-out;
+    left: 0%;
 }
 .move-nav-1{
     left: 50%;
@@ -52,7 +54,7 @@
     width: 24px;
     height: 24px;
     z-index: 0;
-    transition: all .5s ease-in;
+    transition: all .5s ease-in-out;
 }
 .move-lmode-1{
     left: 0%;

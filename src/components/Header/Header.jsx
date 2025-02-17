@@ -33,19 +33,19 @@ export function Header() {
 
     let lightMode = [
         {
-            icon: <FaMoon size={16} style={{ color: 'var(--select)' }}/>,
+            icon: <FaMoon size={16} style={{ color: 'var(--principal)' }}/>,
             style : 'light-icon flex aling-center p-1 radius-3 op-5 pointer',
             state : 'dark'   
         },
         {
-            icon: <FaSun size={16} style={{ color: 'var(--select)' }}/>,
+            icon: <FaSun size={16} style={{ color: 'var(--principal)' }}/>,
             style : 'light-icon flex aling-center p-1 radius-3 op-5 pointer',
             state : 'light'   
         }
     ]
     return(
         <header className='header height-70p width-100 flex flex-between align-center p-inline-4'>
-           <FaCode size={40} style={{ color: 'var(--select)', minWidth: '132px' }}/>
+           <FaCode size={40} style={{ color: 'var(--principal)', minWidth: '132px' }}/>
             <nav className='header-nav relative grid col-3 align-content-center width-content radius-4'>
                 { navItems.map((item, i) => (
                     <a onClick={ () => setNavSelect(i) } key={item.text + i} href={item.url} className={item.style }>
@@ -57,8 +57,8 @@ export function Header() {
             </nav>
             <div className='right-header flex flex-center align-center gap-3'>
                 <div className='contact-header flex flex-center align-center'>
-                    <a href="#" className='flex flex-center align-center op-5'><FaGithubSquare size={30} style={{ color: 'var(--select) ' }}/></a>
-                    <a href="#" className='flex flex-center align-center op-5'><FaLinkedin size={30} style={{ color: 'var(--select)' }}/></a>
+                    <a href="#" className='flex flex-center align-center op-5'><FaGithubSquare size={30} style={{ color: 'var(--principal) ' }}/></a>
+                    <a href="#" className='flex flex-center align-center op-5'><FaLinkedin size={30} style={{ color: 'var(--principal)' }}/></a>
                 </div>
                 <div className='light-mode flex flex-between align-center gap-2 radius-3 relative'>
                     { lightMode.map((mode, i) => (
